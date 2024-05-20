@@ -1,0 +1,88 @@
+Question 1: Find Positive Numbers
+Problem Description:
+Write a Python program that takes a list of numbers and uses a for loop with a conditional statement to print out only the positive numbers from that list.
+
+Example:
+
+Input List: [-1, 2, -3, 4, -5, 6]
+Expected Output:
+Copy code
+2
+4
+6
+Question 2: Replace Elements
+Problem Description:
+Create a Python script that replaces all odd numbers in a list with the value -1.
+
+Example:
+
+Input List: [1, 2, 3, 4, 5, 6]
+Expected Output List: [-1, 2, -1, 4, -1, 6]
+Question 3: Count Specific Elements
+Problem Description:
+Write a program that counts how many times the number 5 appears in a given list.
+
+Example:
+
+Input List: [1, 2, 5, 4, 5, 5, 7, 8]
+Expected Output: "Number 5 appears 3 times."
+Question 4: Check If List Is Sorted
+Problem Description:
+Create a Python script that checks if a list of numbers is sorted in ascending order. The program should use a for loop and conditional statements to determine this.
+
+Example:
+
+Input List: [1, 2, 2, 3, 4, 5]
+Expected Output: "The list is sorted."
+Alternate Input List: [1, 3, 2, 4, 5]
+Alternate Expected Output: "The list is not sorted."
+Question 5: Remove Duplicates
+Problem Description:
+Write a Python program that removes all duplicate values from a list, preserving only the first occurrence of each element.
+
+Example:
+
+Input List: [1, 2, 2, 3, 4, 4, 5, 3]
+Expected Output List: [1, 2, 3, 4, 5]
+
+Question 6: List Intersection
+Problem Description:
+Write a Python program that takes two lists and returns a list containing the common elements between the two without duplicates.
+
+Example:
+
+Input List 1: [1, 2, 3, 4, 5]
+Input List 2: [4, 5, 6, 7, 8]
+Expected Output List: [4, 5]
+Question 7: Filter Even and Odd Numbers
+Problem Description:
+Create a program that separates a list of numbers into two new lists: one containing only even numbers and the other containing only odd numbers.
+
+Example:
+
+Input List: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+Expected Output Lists: Even: [2, 4, 6, 8], Odd: [1, 3, 5, 7, 9]
+Question 8: Find Maximum Without Built-in Function
+Problem Description:
+Write a Python script that finds the maximum number in a list without using the built-in max() function.
+
+Example:
+
+Input List: [3, 5, 1, 2, 4, 8, 0, 2]
+Expected Output: "The maximum value is 8."
+Question 9: Concatenate All Strings in List
+Problem Description:
+Create a program that concatenates all strings in a given list into a single string. Use a for loop to iterate through the list.
+
+Example:
+
+Input List: ["Hello", "World", "from", "Python"]
+Expected Output: "HelloWorldfromPython"
+Question 10: Increment List Elements
+Problem Description:
+Write a program that increases each element in a list of integers by 1 and returns the new list.
+
+Example:
+
+Input List: [1, 2, 3, 4, 5]
+Expected Output List: [2, 3, 4, 5, 6]
