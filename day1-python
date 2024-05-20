@@ -1,0 +1,151 @@
+Question 1: Grade Interpretation
+Problem Description:
+Create a Python program that translates a numerical grade (0-100) into a letter grade (A, B, C, D, F).
+
+A: 90 and above
+B: 80 to 89
+C: 70 to 79
+D: 60 to 69
+F: below 60
+Expected Input and Output:
+
+If a user inputs 92, the output should be "A".
+If a user inputs 85, the output should be "B".
+If a user inputs 30, the output should be "F".
+
+Question 2: Movie Rating Filter
+Problem Description:
+Write a Python program that recommends movies to users based on their age. Assume you have the following age restrictions for movies:
+
+"G": General audiences
+"PG": Parental guidance suggested
+"PG-13": Parents strongly cautioned
+"R": Restricted
+Program Logic:
+
+If age is under 10, recommend "G".
+If age is between 10 and 12, recommend "G" and "PG".
+If age is between 13 and 17, recommend "G", "PG", and "PG-13".
+If age is 18 or older, recommend all movie types.
+Expected Inputs and Outputs:
+
+If the user is 9 years old, the output should be "Recommended: G".
+If the user is 13 years old, the output should be "Recommended: G, PG, PG-13".
+If the user is 20 years old, the output should be "Recommended: G, PG, PG-13, R".
+  
+Question 3: Simple Arithmetic Tester
+Problem Description:
+Create a Python program that asks the user for two numbers and an operation to perform on these numbers (addition, subtraction, multiplication, division).
+
+Implement error handling for division by zero.
+Expected Inputs and Outputs:
+
+If the user inputs 5 and 3, and the operation is addition, the output should be "8".
+If the user inputs 10 and 0, and the operation is division, the output should be "Error: Division by zero is not allowed".
+
+
+Question 4: Transport Suggestion
+Problem Description:
+Create a Python program that suggests a mode of transportation based on the distance a user needs to travel. Assume the following conditions:
+
+Less than 3 kilometers: "Walk"
+3 to 10 kilometers: "Bike"
+10 to 30 kilometers: "Car"
+More than 30 kilometers: "Public Transport"
+Expected Inputs and Outputs:
+
+If the user inputs 2 kilometers, the output should be "Walk".
+If the user inputs 15 kilometers, the output should be "Car".
+
+Question 5: Admission Price Based on Age
+Problem Description:
+Write a program that calculates the price of a ticket based on the visitor's age:
+
+Under 5 years: Free
+5 to 17 years: $10
+18 to 64 years: $20
+Over 64 years: $15
+Expected Inputs and Outputs:
+
+If the user inputs age 4, the output should be "Free".
+If the user inputs age 25, the output should be "$20".
+
+Question 6: Simple Calculator with Error Handling
+Problem Description:
+Enhance a simple calculator program by adding error handling for non-numeric inputs. The user should input two values and an operator (add, subtract, multiply, divide). The program should not crash if a non-numeric value is entered.
+
+Include a default case in your conditionals for an unrecognized operator.
+Expected Inputs and Outputs:
+
+Inputs: "a", 5, "add" should output "Error: Please enter valid numbers."
+Inputs: 7, 0, "divide" should output "Error: Division by zero is not allowed."
+
+Question 7: Environment Suggestion Based on Weather Conditions
+Problem Description:
+Create a program that suggests activities based on temperature and weather condition:
+
+Above 25 degrees Celsius and sunny: "Swimming"
+Between 15 and 25 degrees, sunny or cloudy: "Picnic"
+Below 15 degrees or rainy: "Visit a museum"
+Expected Inputs and Outputs:
+
+If the user inputs 30 degrees and sunny, the output should be "Swimming".
+If the user inputs 10 degrees and rainy, the output should be "Visit a museum".
+
+Question 8: Coffee Machine Simulator
+Problem Description:
+Create a simple coffee machine simulator. The user inputs their choice of coffee from a list ("espresso", "latte", "cappuccino") and the number of sugars ("none", "one", "two"). Based on the input, print a custom message about their choice.
+
+"espresso" with any sugar option: "An espresso, sharp and to the point."
+"latte" or "cappuccino" with "none": "A {choice}, smooth and rich."
+"latte" or "cappuccino" with sugar: "A sweet {choice}, with {sugar} sugars."
+Expected Inputs and Outputs:
+
+If the user inputs "espresso" and "two", the output should be "An espresso, sharp and to the point."
+If the user inputs "latte" and "none", the output should be "A latte, smooth and rich."
+
+Question 9: Tax Bracket Calculator
+Problem Description:
+Write a program that calculates the amount of tax a user needs to pay based on their income. Assume the following tax brackets:
+
+Below $10,000: 0% tax
+$10,000 to $50,000: 10%
+$50,001 to $100,000: 20%
+Above $100,000: 30%
+Also, provide a message on how much tax they owe based on their income.
+
+Expected Inputs and Outputs:
+
+If a user inputs an income of $9,000, the output should be "You owe $0 in taxes."
+If a user inputs an income of $75,000, the output should be "You owe $15,000 in taxes."
+
+Question 10: Fitness Recommendation
+Problem Description:
+Design a program that recommends a workout routine based on the user's available time (in minutes). Assume the following recommendations:
+
+Less than 30 minutes: "Quick cardio session or stretch."
+30 to 60 minutes: "Standard gym workout."
+More than 60 minutes: "Extended training session or multiple activities."
+Expected Inputs and Outputs:
+
+If the user inputs 20 minutes, the output should be "Quick cardio session or stretch."
+If the user inputs 45 minutes, the output should be "Standard gym workout."
+
+Question 11:
+Problem Description:
+Create a Python program that helps a user decide what to wear based on the weather conditions they input. The program should ask for two inputs: the temperature (in Celsius) and the type of precipitation (e.g., "none", "rain", "snow").
+
+Program Logic:
+
+If the temperature is above 20 degrees Celsius and there is no precipitation, the program should print "Wear light clothing."
+If the temperature is between 10 and 20 degrees Celsius, regardless of precipitation, the program should print "Wear long sleeves and pants."
+If the temperature is below 10 degrees Celsius and there is "snow", the program should print "Wear a heavy coat and snow boots."
+If the temperature is below 10 degrees Celsius and there is "rain", the program should print "Wear a waterproof coat and rain boots."
+In all other conditions, the program should print "Stay adaptable, wear layers!"
+Expected Inputs and Outputs:
+
+If the user inputs 25 degrees Celsius and "none" for precipitation, the output should be "Wear light clothing."
+If the user inputs 15 degrees Celsius and "rain", the output should be "Wear long sleeves and pants."
+If the user inputs 5 degrees Celsius and "snow", the output should be "Wear a heavy coat and snow boots."
+
+
